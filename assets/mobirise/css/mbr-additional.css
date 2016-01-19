@@ -35,3 +35,9 @@
 #msg-box2-7 .mbr-article {
   color: #252525;
 }
+#msg-box3-9 .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-9 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
