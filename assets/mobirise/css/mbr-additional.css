@@ -2,6 +2,15 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
 
 
+#ext_menu-9 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-9.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-9 .mbr-navbar__section {
+  background: #2c2c2c;
+}
 #header4-2 .btn {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -34,10 +43,4 @@
 }
 #msg-box2-7 .mbr-article {
   color: #252525;
-}
-#msg-box3-9 .mbr-header .mbr-header__text {
-  text-align: center;
-}
-#msg-box3-9 .mbr-header .mbr-header__subtext {
-  text-align: center;
 }
