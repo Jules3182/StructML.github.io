@@ -3,7 +3,7 @@ var overlay = document.getElementById("overlay");
 var startTime = new Date().getTime();
 
 var interval = setInterval(function(){
-    if(new Date().getTime() - startTime > 60000){
+    if(new Date().getTime() - startTime > 20){
         clearInterval(interval);
         return;
     }
