@@ -10,13 +10,16 @@
     <meta name="author" content="">
         <link rel="stylesheet" href="css/skel.css" />
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/style-xlarge.css" /> </noscript>
+        <link rel="stylesheet" href="css/style-xlarge.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
     <link rel="stylesheet" href="main.css">
     <title>Story</title>
 <link rel="stylesheet" href="css/animations.css">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+<!---scroll animation--->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
     <!-- Custom CSS -->
     <link href="css/round-about.css" rel="stylesheet">
@@ -29,6 +32,19 @@
     <![endif]-->
 
 </head>
+
+<script>
+	$(window).scroll(function() {
+		$('#object').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("fadeIn");
+			}
+		});
+	});
+</script>
 
 <body>
         <header id="header">
@@ -58,15 +74,15 @@
               <div id="object" class="fadeIn">
 
             <div class="timeline-heading">
-<<<<<<< HEAD
+
               <h4 class="timeline-title">Mussum ipsum cacilds</h4>
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
 
-=======
+
               <h4 class="timeline-title">Our Starts</h4>
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>We began from several important projects.</small></p>
             </div>
->>>>>>> origin/master
+
             <div class="timeline-body">
               <p> That tackled the most dificult and complex problems. Ranging from neural network cancer diagnosis to the Evolution of trees.</p>
             </div>
@@ -79,13 +95,13 @@
           <div class="timeline-panel">
                             <div id="object" class="fadeIn">
             <div class="timeline-heading">
-<<<<<<< HEAD
+
               <h4 class="timeline-title">Mussum ipsum cacilds</h4>
 
-=======
+
               <h4 class="timeline-title">The Founding of StructML</h4>
             </div>
->>>>>>> origin/master
+
             <div class="timeline-body">
               <p>StructML is founded by Zan Huang in order to support new growing technologies in the field of AI.</p>
               <p>Valueing research and beneficial contributions beyond monetary gains, we open sourced our code under the GNU GPL. Soon, our software took ahold of the newly open sourced Google's Tensorflow library and major development on various projects began.</p>
@@ -97,33 +113,34 @@
         <li>
           <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
+              <div id="object" class="fadeIn">
                             <div id="object" class="fadeIn">
             <div class="timeline-heading">
-<<<<<<< HEAD
+
               <h4 class="timeline-title">Mussum ipsum cacilds</h4>
 
-=======
               <h4 class="timeline-title">Hired</h4>
             </div>
->>>>>>> origin/master
+
             <div class="timeline-body">
               <p>We hired numerous executives to take care of various aspects of the company. Noah Beckham joined as public affairs.</p>
             </div>
                                 </div>
           </div>
+            </div>
         </li>
 
         <li class="timeline-inverted">
           <div class="timeline-panel">
                             <div id="object" class="fadeIn">
             <div class="timeline-heading">
-<<<<<<< HEAD
+
               <h4 class="timeline-title">Mussum ipsum cacilds</h4>
 
-=======
+
               <h4 class="timeline-title">Finnishing the Evolution of Tree's</h4>
             </div>
->>>>>>> origin/master
+
             <div class="timeline-body">
               <p>Our chief software engineer Aresh Pourkavoos completed the evolution of trees. A project aimed selecting randomly mutated trees based on their sunlight. The results were astounding.</p>
             </div>
@@ -134,6 +151,7 @@
         <li>
           <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
           <div class="timeline-panel">
+              <div id="object" class="fadeIn">
             <div class="timeline-heading">
               <h4 class="timeline-title">Neural Network</h4>
             </div>
@@ -148,6 +166,7 @@
 
         <li>
           <div class="timeline-panel">
+              <div id="object" class="fadeIn">
             <div class="timeline-heading">
               <h4 class="timeline-title">Importance of Data</h4>
             </div>
@@ -155,11 +174,13 @@
               <p>We reached new heights on upon hiring of our Hardware Architect Joshua Davidson</p>
             </div>
           </div>
+            </div>
         </li>
 
         <li class="timeline-inverted">
           <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
           <div class="timeline-panel">
+              <div id="object" class="fadeIn">
             <div class="timeline-heading">
               <h4 class="timeline-title">Progress</h4>
             </div>
@@ -167,6 +188,7 @@
               <p>Now we seek to develop StructML with the help of more diverse team of board members!</p>
             </div>
           </div>
+            </div>
         </li>
     </ul>
 
