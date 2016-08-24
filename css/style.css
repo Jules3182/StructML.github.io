@@ -1279,3 +1279,14 @@ pre {
 	font-weight: 400;
 	line-height: 18.5714px;
 }
+
+
+.staffcenter {
+    background: linear-gradient(60deg, #4B4B4B 50%, #535353 50%);
+    		color: #ffffff;
+		padding: 6em 0em 4em;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
