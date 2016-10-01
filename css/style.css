@@ -45,7 +45,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #666;
+		color: #FFFFFF;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1323,8 +1323,11 @@ video {
   padding: 2rem;
   width: 33%;
   margin:2rem;
-  float: right;
+  float: center;
   font-size: 1.2rem;
+        margin: auto;
+    width: 35%;
+
 }
 h1 {
   font-size: 3rem;
